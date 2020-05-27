@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Backup"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="7">
+      <Item1>
+        <PackageName Value="pl_ExCompress"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="indylaz"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="MPlayerControlLaz"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="bgracontrols"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="FCL"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="LCL"/>
+      </Item7>
+    </RequiredPackages>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="Backup.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uinicial.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmInicial"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UInicial"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UConst"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uappmutex.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UAppMutex"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\Util\Utility.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uwebserver.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UWebServer"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uzipfile.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit6>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="C:\Work\Lazarus\Bin\Backup\$(TargetCPU)\SisBaPro"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\Util"/>
+      <UnitOutputDirectory Value="$(TMP)\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <TargetCPU Value="i386"/>
+      <TargetOS Value="win32"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

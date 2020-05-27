@@ -1,0 +1,176 @@
+.bt {
+  border: 1px solid #25692A;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 1.6vmin;
+  padding: 6px 10px;
+  text-decoration: none;
+  width: 90%;
+  /*overflow: auto;*/
+} 
+
+.bt.down {
+	background: linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%) url("../imagens/download.png") no-repeat;
+}
+
+.bt-vd {
+  border-color: #68b465;
+  background: linear-gradient(to bottom, #abd5aa 5%, #68b465 100%);
+  box-shadow: inset 0px 1px 0px 0px #e3f1e3;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;
+}
+
+.bt-lj {
+  border-color: #eb9b48;
+  background: linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+  box-shadow: inset 0px 1px 0px 0px #fdf7f0;
+  color: #333;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+
+.bt-az {
+  border-color: #46a7f5;
+  background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+  box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009;  
+}
+
+.bt-vm {
+  border-color: #f61f0e;
+  background: linear-gradient(to bottom, #fca8a1 5%, #f61f0e 100%);
+  box-shadow: inset 0px 1px 0px 0px #fff4f3;
+  color: #fff;
+  text-shadow: 0px 1px 0px #528009; 
+}
+
+.bt-vd:hover {
+  background: linear-gradient(to bottom, #68b465 5%, #abd5aa 100%);
+}
+
+.bt-lj:hover {
+  background: linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
+}
+
+.bt-az:hover {
+  background: linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+}
+
+.bt-vm:hover {
+  background:linear-gradient(to bottom, #f61f0e 5%, #fca8a1 100%);
+}
+
+.bt:active {
+  position: relative;
+  top: 2px;
+}
+
+.bt-info a {  
+  cursor: pointer;
+  width: 24px;
+  height: 24px;	
+  height: 22px;	
+  display: inline-block;
+  /*
+  cursor: pointer;
+  width: 24px;
+  height: 24px;	
+  display: inline-block;
+
+  border-radius: 4px;
+  border: 1px solid #25692A;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  vertical-align: middle;	
+  border-color: #f7d6b3;
+  */
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .bt-info a{
+    width: 12px;
+    height: 12px;	
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1280px)  {
+  .bt-info a{
+    width: 24px;
+    height: 24px;	
+  }
+}
+
+.bt-info.a1 {  
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;  
+  transition: 0.5s ease-in;	
+  background: url("../imagens/confirm.png") no-repeat center;
+}
+.bt-info.a2 {  
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;  
+  transition: 0.5s ease-in;	
+  background: url("../imagens/cancel.png") no-repeat center;
+}
+
+.botao  {
+  margin: 0px;
+  padding: 0px;
+}
+
+.botao a, .botao a:visited {  
+  cursor: pointer;
+  width: 80%;
+  height: 24px;	
+  display: inline-block;
+  /*
+  border: 1px solid #25692A;
+  border-radius: 4px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  vertical-align: middle;	
+  border-color: #f7d6b3;
+  box-shadow: inset 0px 1px 0px 0px #fdf7f0;
+  color: #333;
+  text-shadow: 0px 1px 0px #ffee66;
+  */
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;  
+  transition: 0.5s ease-in;	
+
+	background: url("../imagens/download_blue.png") no-repeat center;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .botao a{
+    width: 12px;
+    height: 12px;	
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1280px)  {
+  .botao a{
+    width: 24px;
+    height: 24px;	
+  }
+}
+
+.botao a:hover { 
+  background: url("../imagens/download_doc.png") no-repeat center; 
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  color: #333;
+}
