@@ -61,8 +61,9 @@
         <Filename Value="uwebserver.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UWebServer"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
-        <CursorPos X="50"/>
+        <CursorPos X="25" Y="13"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit5>
@@ -320,10 +321,9 @@
       </Unit40>
       <Unit41>
         <Filename Value="C:\Users\trigu\AppData\Local\lazarus\onlinepackagemanager\packages\ct4laz\pl_components\pl_excompress\source\TplZlibUnit.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
         <TopLine Value="21"/>
-        <CursorPos X="27" Y="42"/>
+        <CursorPos X="17" Y="25"/>
         <UsageCount Value="13"/>
         <Loaded Value="True"/>
       </Unit41>
@@ -347,121 +347,121 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="136" Column="27" TopLine="121"/>
+        <Caret Line="1070" Column="60" TopLine="1065"/>
       </Position1>
       <Position2>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="1070" Column="60" TopLine="1065"/>
+        <Caret Line="103" Column="29" TopLine="92"/>
       </Position2>
       <Position3>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="103" Column="29" TopLine="92"/>
+        <Caret Line="498" Column="19" TopLine="485"/>
       </Position3>
       <Position4>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="498" Column="19" TopLine="485"/>
+        <Caret Line="499" Column="19" TopLine="485"/>
       </Position4>
       <Position5>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="499" Column="19" TopLine="485"/>
+        <Caret Line="870" Column="19" TopLine="848"/>
       </Position5>
       <Position6>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="870" Column="19" TopLine="848"/>
+        <Caret Line="885" Column="17" TopLine="873"/>
       </Position6>
       <Position7>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="885" Column="17" TopLine="873"/>
+        <Caret Line="1276" Column="11" TopLine="1262"/>
       </Position7>
       <Position8>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="1276" Column="11" TopLine="1262"/>
       </Position8>
       <Position9>
         <Filename Value="uinicial.pas"/>
+        <Caret Line="103" Column="29" TopLine="82"/>
       </Position9>
       <Position10>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="103" Column="29" TopLine="82"/>
+        <Caret Line="498" Column="19" TopLine="476"/>
       </Position10>
       <Position11>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="498" Column="19" TopLine="476"/>
+        <Caret Line="499" Column="19" TopLine="477"/>
       </Position11>
       <Position12>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="499" Column="19" TopLine="477"/>
+        <Caret Line="870" Column="19" TopLine="848"/>
       </Position12>
       <Position13>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="870" Column="19" TopLine="848"/>
+        <Caret Line="885" Column="17" TopLine="864"/>
       </Position13>
       <Position14>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="885" Column="17" TopLine="864"/>
+        <Caret Line="1035" Column="33" TopLine="1016"/>
       </Position14>
       <Position15>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="1035" Column="33" TopLine="1016"/>
       </Position15>
       <Position16>
         <Filename Value="uinicial.pas"/>
+        <Caret Line="16" Column="58"/>
       </Position16>
       <Position17>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="16" Column="58"/>
+        <Caret Line="31" Column="11" TopLine="9"/>
       </Position17>
       <Position18>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="31" Column="11" TopLine="9"/>
+        <Caret Line="54" Column="13" TopLine="33"/>
       </Position18>
       <Position19>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="54" Column="13" TopLine="33"/>
+        <Caret Line="63" Column="23" TopLine="42"/>
       </Position19>
       <Position20>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="63" Column="23" TopLine="42"/>
+        <Caret Line="102" Column="20" TopLine="81"/>
       </Position20>
       <Position21>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="102" Column="20" TopLine="81"/>
+        <Caret Line="1219" Column="23" TopLine="1201"/>
       </Position21>
       <Position22>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="1219" Column="23" TopLine="1201"/>
+        <Caret Line="141" Column="29" TopLine="130"/>
       </Position22>
       <Position23>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="141" Column="29" TopLine="130"/>
+        <Caret Line="508" Column="19" TopLine="486"/>
       </Position23>
       <Position24>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="508" Column="19" TopLine="486"/>
+        <Caret Line="511" Column="19" TopLine="489"/>
       </Position24>
       <Position25>
         <Filename Value="uinicial.pas"/>
-        <Caret Line="511" Column="19" TopLine="489"/>
+        <Caret Line="516" Column="19" TopLine="494"/>
       </Position25>
       <Position26>
-        <Filename Value="uinicial.pas"/>
-        <Caret Line="516" Column="19" TopLine="494"/>
+        <Filename Value="uzipfile.pas"/>
+        <Caret Line="30" Column="29" TopLine="18"/>
       </Position26>
       <Position27>
         <Filename Value="uzipfile.pas"/>
-        <Caret Line="30" Column="29" TopLine="18"/>
+        <Caret Line="29" Column="29" TopLine="18"/>
       </Position27>
       <Position28>
         <Filename Value="uzipfile.pas"/>
-        <Caret Line="29" Column="29" TopLine="18"/>
+        <Caret Line="30" Column="29" TopLine="18"/>
       </Position28>
       <Position29>
         <Filename Value="uzipfile.pas"/>
-        <Caret Line="30" Column="29" TopLine="18"/>
+        <Caret Line="197" Column="36" TopLine="187"/>
       </Position29>
       <Position30>
-        <Filename Value="uzipfile.pas"/>
-        <Caret Line="197" Column="36" TopLine="187"/>
+        <Filename Value="C:\Users\trigu\AppData\Local\lazarus\onlinepackagemanager\packages\ct4laz\pl_components\pl_excompress\source\TplZlibUnit.pas"/>
+        <Caret Line="25" Column="17" TopLine="21"/>
       </Position30>
     </JumpHistory>
     <RunParams>
